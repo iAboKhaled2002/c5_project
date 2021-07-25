@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         QUESTIONS = getResources().getStringArray(R.array.questions);
         ANSWERS_DETAILS = getResources().getStringArray(R.array.answers_details);
         showNewQuestion();
-
+int s = 0;
     }
 
     @Override
