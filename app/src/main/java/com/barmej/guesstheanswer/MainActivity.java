@@ -111,6 +111,7 @@ public class MainActivity extends AppCompatActivity {
         mCurrentAnswer = ANSWERS[randomIndex];
         mCurrentAnswerDetail = ANSWERS_DETAILS[randomIndex];
         mTextViewQuestion.setText(mCurrentQuestion);
+        int m = 3;
     }
 
     public void changeQuestion(View view) {
